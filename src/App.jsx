@@ -1,15 +1,13 @@
+import Video from "./components/Video";
 
-import './App.css'
-import TaskApp from './task'
-
-function App() {
-  
+function App(){
   return (
-    
-    <>
-  <TaskApp />
-    </>
+  <>
+  <Video title="video1" channel="reactjs" views="20K" time='20 years ago'/>
+  <Video title="video2" channel="nodejs" views="100K" time='10 years ago' />
+  </>
   )
+
 }
 
-export default App
+export default App;
