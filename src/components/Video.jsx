@@ -1,8 +1,16 @@
 import "./Video.css";
 
-function Video({ title, channel, views, time }) {
+function Video({ title, channel, views, time, verified }) {
   //   let topic = "react";
   //     let ans = "temporary";
+
+  let channelJSX;
+
+  //   if (verified) {
+  //     channelJSX = <div className="channel">{channel} ✔️</div>;
+  //   } else {
+  //     channelJSX = <div className="channel">{channel}</div>;
+  //   }
 
   return (
     <>
@@ -14,7 +22,7 @@ function Video({ title, channel, views, time }) {
       </div>
 
       <div className="title">{title}</div>
-      <div className="channel">{channel}</div>
+      <div className="channel">{channel} {verified ? '✔️' : 'chim tapak dam dam'}</div>
       <div className="views">
         {views}
         views <span>.</span>
