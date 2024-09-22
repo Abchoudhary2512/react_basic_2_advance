@@ -1,0 +1,11 @@
+button {
+  background-color: aqua;
+  border: 1px red slateblue;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: black;
+  color: brown;
+}

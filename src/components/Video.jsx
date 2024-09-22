@@ -1,6 +1,6 @@
 import "./Video.css";
 
-function Video({ title, id,channel, views, time, verified }) {
+function Video({ title, id, channel, views, time, verified }) {
   //   let topic = "react";
   //     let ans = "temporary";
 
@@ -15,10 +15,7 @@ function Video({ title, id,channel, views, time, verified }) {
   return (
     <>
       <div className="pic">
-        <img
-  src={`https://picsum.photos/id/${id}/200/300`}
-alt=""
-        />
+        <img src={`https://picsum.photos/id/${id}/200/300`} alt="" />
       </div>
 
       <div className="title">{title}</div>
